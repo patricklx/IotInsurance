@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-03-07"
+lastupdated: "2017-12-01"
 ---
 
 <!-- Common attributes used in the template are defined as follows: -->
@@ -11,12 +11,18 @@ lastupdated: "2017-03-07"
 {:screen: .screen}
 {:codeblock: .codeblock}
 {:pre: .pre}
+{:note: .deprecated}
+
+# How the service works (Deprecated)
+{: #iot4i_how_service_works}
+
+**This service is deprecated:** Existing instances of this service can be used until 12 December 2018. For more information, see the [deprecation announcement blog](https://www.ibm.com/blogs/bluemix/2017/11/iot-for-insurance-on-bluemix-migrated-to-saas-offering/){: new_window}.  
+{:deprecated}
 
 
-
-# How the service works
 {{site.data.keyword.iotinsurance_full}} creates a flow to collect, manage, and analyze data from connected policy holders.
 {:shortdesc}
+
 
 The insurance provider creates an instance of {{site.data.keyword.iotinsurance_short}} within the {{site.data.keyword.Bluemix_notm}} organization. Customers of the insurer have sensors in their homes which are connected to the sensor provider's cloud. From their mobile devices, customers authorize the {{site.data.keyword.iotinsurance_short}} service to receive sensor data. The {{site.data.keyword.iotinsurance_short}} Transformer connects to the sensor provider's cloud and pulls data for each user and sends it to the {{site.data.keyword.iot_short_notm}} server. If the sensor shows that the parameters that are specified in the insurer's shields are met in the customer's home, notifications are sent to the insurer's dashboard and to the customer's device.
 

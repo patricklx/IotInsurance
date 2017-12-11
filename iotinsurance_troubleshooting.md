@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-03-08"
+lastupdated: "2017-12-01"
 ---
 
 <!-- Common attributes used in the template are defined as follows: -->
@@ -11,10 +11,14 @@ lastupdated: "2017-03-08"
 {:screen: .screen}
 {:codeblock: .codeblock}
 {:pre: .pre}
+{:note: .deprecated}
 
 
-# {{site.data.keyword.iotinsurance_short}} troubleshooting
+# {{site.data.keyword.iotinsurance_short}} troubleshooting (Deprecated)
 {: #ts}
+
+**This service is deprecated:** Existing instances of this service can be used until 12 December 2018. For more information, see the [deprecation announcement blog](https://www.ibm.com/blogs/bluemix/2017/11/iot-for-insurance-on-bluemix-migrated-to-saas-offering/){: new_window}.  
+{:deprecated}
 
 Here are the answers to common troubleshooting questions about using {{site.data.keyword.iotinsurance_full}} on {{site.data.keyword.Bluemix_notm}}.
 {:shortdesc}

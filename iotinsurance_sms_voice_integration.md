@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-05-02"
+lastupdated: "2017-12-01"
 ---
 
 <!-- Common attributes used in the template are defined as follows: -->
@@ -12,9 +12,15 @@ lastupdated: "2017-05-02"
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:tip: .tip}
+{:note: .deprecated}
 
-# Enabling SMS and voice messaging
+
+# Enabling SMS and voice messaging (Deprecated)
 {: #supportedcloud}
+
+**This service is deprecated:** Existing instances of this service can be used until 12 December 2018. For more information, see the [deprecation announcement blog](https://www.ibm.com/blogs/bluemix/2017/11/iot-for-insurance-on-bluemix-migrated-to-saas-offering/){: new_window}.  
+{:deprecated}
+
 
 {{site.data.keyword.iotinsurance_full}} supports integration with Twilio to enable SMS and voice messaging. Twilio is a third-party application, which you can install in your {{site.data.keyword.Bluemix_notm}} dashboard.
 {: shortdesc}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-03-22"
+lastupdated: "2017-12-01"
 ---
 
 <!-- Common attributes used in the template are defined as follows: -->
@@ -11,12 +11,18 @@ lastupdated: "2017-03-22"
 {:screen: .screen}
 {:codeblock: .codeblock}
 {:pre: .pre}
-
+{:note: .deprecated}
 
 
 <!-- {{site.data.keyword.iotinsurance_full}}  {{site.data.keyword.iotinsurance_short}}  -->
 
-# Backing up data
+# Backing up data (Deprecated)
+{: #backing_up_data}
+
+**This service is deprecated:** Existing instances of this service can be used until 12 December 2018. For more information, see the [deprecation announcement blog](https://www.ibm.com/blogs/bluemix/2017/11/iot-for-insurance-on-bluemix-migrated-to-saas-offering/){: new_window}.  
+{:deprecated}
+
+
 You can back up your {{site.data.keyword.iotinsurance_full}} data by replicating the {{site.data.keyword.cloudantfull}} database.
 {:shortdesc}
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-03-08"
+lastupdated: "2017-12-01"
 ---
 
 <!-- Common attributes used in the template are defined as follows: -->
@@ -11,16 +11,22 @@ lastupdated: "2017-03-08"
 {:screen: .screen}
 {:codeblock: .codeblock}
 {:pre: .pre}
+{:note: .deprecated}
 
 
 <!-- {{site.data.keyword.iotinsurance_full}}  {{site.data.keyword.iotinsurance_short}}  -->
 
 
-# Installing and connecting the sample mobile app
+# Installing and connecting the sample mobile app (Deprecated)
 {: #iot4i_gettingstarted}
+
+**This service is deprecated:** Existing instances of this service can be used until 12 December 2018. For more information, see the [deprecation announcement blog](https://www.ibm.com/blogs/bluemix/2017/11/iot-for-insurance-on-bluemix-migrated-to-saas-offering/){: new_window}.  
+{:deprecated}
+
 
 The {{site.data.keyword.iotinsurance_full}} sample mobile app is a reference implementation for a mobile client of {{site.data.keyword.iotinsurance_short}}. You can use the app to register new devices in the system and receive alerts for the devices.
 {:shortdesc}
+
 
 **Note**: {{site.data.keyword.iotinsurance_short}} no longer deploys either {{site.data.keyword.amafull}} or {{site.data.keyword.mobilepushfull}}. Earlier versions of {{site.data.keyword.iotinsurance_short}} used the {{site.data.keyword.amashort}} service to process the responses from the mobile app. This process continues to work for all existing instances of {{site.data.keyword.iotinsurance_short}}. However, you must create a custom authentication process to use the mobile app with new instances of
 {{site.data.keyword.iotinsurance_short}}. You can also optionally [create an instance of  {{site.data.keyword.mobilepushshort}}](../mobilepush/index.html), configure it, and bind it to the {{site.data.keyword.iotinsurance_short}} API.
