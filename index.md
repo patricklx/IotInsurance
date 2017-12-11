@@ -46,7 +46,7 @@ To get up and running with this service, you must deploy required services and a
   1. Open the {{site.data.keyword.iotinsurance_short}} dashboard by clicking **Open**. Accept the prefilled credentials by clicking **Login**.
   2. Return to the {{site.data.keyword.iotinsurance_short}} service console and view the APIs by clicking **APIs**.
 
-  **Note:** After deployment, you can access the dashboard or APIs directly by entering their respective URLs in your browser. When you use this method, you must enter your {{site.data.keyword.iotinsurance_short}} service credentials. To locate your credentials, return to the {{site.data.keyword.iotinsurance_short}} service console. Click the **Service Credentials** tab and then click **View Credentials**. Make a note of the User ID and Password.
+  **Note:** After deployment, you can access the dashboard or APIs directly by entering their respective URLs in your browser. When you use this method, you must enter your {{site.data.keyword.iotinsurance_short}} service credentials. To locate your credentials, return to the {{site.data.keyword.iotinsurance_short}} service console. Click the **Service Credentials** tab and then click **View Credentials**. Make a note of the User ID and password.
 
 
 <!--
