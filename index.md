@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-05-17"
+lastupdated: "2017-12-11"
 ---
 
 <!-- Common attributes used in the template are defined as follows: -->
@@ -23,7 +23,7 @@ lastupdated: "2017-05-17"
 {:shortdesc}
 
 To get up and running with this service, you must deploy required services and apps, then configure the services. Find an overview of the services and app and an architecture diagram in [About {{site.data.keyword.iotinsurance_short}}](iotinsurance_overview.html)
-
+---
 **Prerequisites:** Before you begin, ensure that the following prerequisites are in place:
 - An instance of the [{{site.data.keyword.iotinsurance_short}} service](https://console.ng.bluemix.net/catalog/services/iot-for-insurance/) must exist in your {{site.data.keyword.Bluemix_notm}} space.
 - At least 2 GB of free memory must be available in your {{site.data.keyword.Bluemix_notm}} organization to enable the Deploy function. If you are upgrading from a previous version, you should have at least 2.5 GB.
