@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-05-17"
+lastupdated: "2017-12-11"
 ---
 
 <!-- Common attributes used in the template are defined as follows: -->
@@ -12,12 +12,18 @@ lastupdated: "2017-05-17"
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:tip: .tip}
+{:note: .deprecated}
 
-# Enabling support for Wally data
+
+# Enabling support for Wally data (Deprecated)
 {: #wallysupport}
+
+**This service is deprecated:** Existing instances of this service can be used until 12 December 2018. For more information, see the [deprecation announcement blog](https://www.ibm.com/blogs/bluemix/2017/11/iot-for-insurance-on-bluemix-migrated-to-saas-offering/){: new_window}.  
+{:deprecated}
 
 {{site.data.keyword.iotinsurance_full}} supports integration with data from Wally sensors and services. Wally is a third-party wireless sensor provider.
 {: shortdesc}
+
 
 ## Prerequisites
 To enable {{site.data.keyword.iotinsurance_short}} to use Wally data, you must have an active Wally organization that is associated with the accounts for which data is to be retrieved. Your Wally account must be enabled to use the Partner REST API, and you must obtain a security token from the Wally settings page. For more information, see the [Wally website ![External link icon](../../icons/launch-glyph.svg)](https://my.wallyhome.com/){:new_window}.
@@ -47,7 +53,7 @@ Use environment variables to configure the {{site.data.keyword.iotinsurance_shor
 <td>(Required) The name of the Wally organization to use, provided by Wally.</td>
 </tr>
 <tr>
-<td>WALLY_TOKEN</td>
+<td>WALLY_SECURITY_TOKEN</td>
 <td>string</td>
 <td>(Required) The security token that is used to access the data, provided by Wally.</td>
 </tr>

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-04-25"
+lastupdated: "2017-12-01"
 ---
 
 <!-- Common attributes used in the template are defined as follows: -->
@@ -11,14 +11,20 @@ lastupdated: "2017-04-25"
 {:screen: .screen}
 {:codeblock: .codeblock}
 {:pre: .pre}
+{:note: .deprecated}
 
 
-# Using the shield toolkit
+# Using the shield toolkit (Deprecated)
 {: #iot4i_shield_toolkit}
+
+**This service is deprecated:** Existing instances of this service can be used until 12 December 2018. For more information, see the [deprecation announcement blog](https://www.ibm.com/blogs/bluemix/2017/11/iot-for-insurance-on-bluemix-migrated-to-saas-offering/){: new_window}.  
+{:deprecated}
+
 Use shields to protect property and users by identifying hazards and creating appropriate automated responses. Use or modify the shields that are included in the {{site.data.keyword.iotinsurance_short}} shields library or create and implement your own shields by using the instructions and examples that follow.
 {:shortdesc}
 
-## About shields.
+
+## About shields
 A shield is a set of rules and defined actions that can be triggered by specific conditions in the input that is received from a sensor. For example, you could create a shield with a rule that causes a text message to be sent whenever the sensor detects a water leak.
 
 ## Using shields from the {{site.data.keyword.iotinsurance_short}} shields library

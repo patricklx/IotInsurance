@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-03-07"
+lastupdated: "2017-12-01"
 ---
 
 <!-- Common attributes used in the template are defined as follows: -->
@@ -11,12 +11,18 @@ lastupdated: "2017-03-07"
 {:screen: .screen}
 {:codeblock: .codeblock}
 {:pre: .pre}
+{:note: .deprecated}
 
-# Supported devices and vendors
-{: #supportedcloud}
+
+# Supported devices and vendors (Deprecated)
+{: #supported_devices}
+
+**This service is deprecated:** Existing instances of this service can be used until 12 December 2018. For more information, see the [deprecation announcement blog](https://www.ibm.com/blogs/bluemix/2017/11/iot-for-insurance-on-bluemix-migrated-to-saas-offering/){: new_window}.  
+{:deprecated}
 
 {{site.data.keyword.iotinsurance_full}} supports integration with multiple cloud vendors and devices.
 {: shortdesc}
+
 
 ## Supported devices by vendor
 {: #supportedvendors}

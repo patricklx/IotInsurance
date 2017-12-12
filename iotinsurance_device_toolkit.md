@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-03-08"
+lastupdated: "2017-12-01"
 ---
 
 <!-- Common attributes used in the template are defined as follows: -->
@@ -11,11 +11,15 @@ lastupdated: "2017-03-08"
 {:screen: .screen}
 {:codeblock: .codeblock}
 {:pre: .pre}
+{:note: .deprecated}
 
 
-
-# Using the device toolkit
+# Using the device toolkit (Deprecated)
 {: #iot4i_connecting_devices}
+
+**This service is deprecated:** Existing instances of this service can be used until 12 December 2018. For more information, see the [deprecation announcement blog](https://www.ibm.com/blogs/bluemix/2017/11/iot-for-insurance-on-bluemix-migrated-to-saas-offering/){: new_window}.  
+{:deprecated}
+
 By using the {{site.data.keyword.iotinsurance_full}} Device Toolkit, you can connect devices that are made by any device vendor to your {{site.data.keyword.iotinsurance_short}} service.
 {:shortdesc}
 

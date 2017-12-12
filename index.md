@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-05-17"
+lastupdated: "2017-12-11"
 ---
 
 <!-- Common attributes used in the template are defined as follows: -->
@@ -16,9 +16,17 @@ lastupdated: "2017-05-17"
 <!-- {{site.data.keyword.iotinsurance_full}}  {{site.data.keyword.iotinsurance_short}}  -->
 
 
-# Getting started with {{site.data.keyword.iotinsurance_short}}
+# Getting started with {{site.data.keyword.iotinsurance_short}} (Deprecated)
 {: #gettingstarted}
 
+**This service is deprecated:** For more information, see the [deprecation announcement blog](https://www.ibm.com/blogs/bluemix/2017/11/iot-for-insurance-on-bluemix-migrated-to-saas-offering/){: new_window}. However, {{site.data.keyword.iotinsurance_short}} is not going away. As of 31 July 2017, {{site.data.keyword.iotinsurance_short}} became a SaaS offering. The SaaS offering is available on [IBM Marketplace](https://www.ibm.com/us-en/marketplace/ibm-iot-for-insurance){: new_window}.
+
+Product documentation for the {{site.data.keyword.iotinsurance_full}} SaaS offering is in the [IBM Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSQNYQ/iot-insurance/kc_welcome.html){: new_window}.
+
+Existing instances of this service can be used until 12 December 2018. However, you are encouraged to migrate to the {{site.data.keyword.iotinsurance_short}} SaaS offering. If you have data from this service that you want to migrate to the SaaS offering, you must open a [ticket at https://console.bluemix.net/](https://console.bluemix.net/){: new_window} under **Support > Add Ticket**.  
+{: deprecated}
+
+---
 {{site.data.keyword.iotinsurance_full}} is a {{site.data.keyword.Bluemix_notm}} service that you can use to collect, manage, and analyze data from connected policy holders. {{site.data.keyword.iotinsurance_short}} gives you the ability to provide personalized risk assessment, real-time protection, and policy cost reductions.
 {:shortdesc}
 
@@ -46,7 +54,7 @@ To get up and running with this service, you must deploy required services and a
   1. Open the {{site.data.keyword.iotinsurance_short}} dashboard by clicking **Open**. Accept the prefilled credentials by clicking **Login**.
   2. Return to the {{site.data.keyword.iotinsurance_short}} service console and view the APIs by clicking **APIs**.
 
-  **Note:** After deployment, you can access the dashboard or APIs directly by entering their respective URLs in your browser. When you use this method, you must enter your {{site.data.keyword.iotinsurance_short}} service credentials. To locate your credentials, return to the {{site.data.keyword.iotinsurance_short}} service console. Click the **Service Credentials** tab and then click **View Credentials**. Make a note of the User ID and Password.
+  **Note:** After deployment, you can access the dashboard or APIs directly by entering their respective URLs in your browser. When you use this method, you must enter your {{site.data.keyword.iotinsurance_short}} service credentials. To locate your credentials, return to the {{site.data.keyword.iotinsurance_short}} service console. Click the **Service Credentials** tab and then click **View Credentials**. Make a note of the User ID and password.
 
 
 <!--

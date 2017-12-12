@@ -3,7 +3,7 @@
 
 
 {: .toc subcollection="iot-insurance" audience="service"  href="/docs/services/IotInsurance/index.html"}
-IoT for Insurance
+IoT for Insurance (Deprecated)
 
   {: .navgroup id="learn"}
     index.md
