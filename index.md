@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2016, 2017
-lastupdated: "2017-12-28"
+  years: 2016, 2018
+lastupdated: "2018-03-26"
 ---
 
 <!-- Common attributes used in the template are defined as follows: -->
@@ -30,16 +30,21 @@ Existing instances of this service can be used until 12 December 2018. However, 
 {{site.data.keyword.iotinsurance_full}} is a {{site.data.keyword.Bluemix_notm}} service that you can use to collect, manage, and analyze data from connected policy holders. {{site.data.keyword.iotinsurance_short}} gives you the ability to provide personalized risk assessment, real-time protection, and policy cost reductions.
 {:shortdesc}
 
+
+<!--
 To get up and running with this service, you must deploy required services and apps, then configure the services. Find an overview of the services and app and an architecture diagram in [About {{site.data.keyword.iotinsurance_short}}](iotinsurance_overview.html)
 
 **Prerequisites:** Before you begin, ensure that the following prerequisites are in place:
 - An instance of the [{{site.data.keyword.iotinsurance_short}} service](https://console.ng.bluemix.net/catalog/services/iot-for-insurance/) must exist in your {{site.data.keyword.Bluemix_notm}} space.
-- At least 2 GB of free memory must be available in your {{site.data.keyword.Bluemix_notm}} organization to enable the Deploy function. If you are upgrading from a previous version, you should have at least 2.5 GB.
+- At least 2 GB of free memory must be available in your {{site.data.keyword.Bluemix_notm}} organization to enable the Deploy function. If you are upgrading from a previous version, you should have at least 2.5 GB. -->
 
 ## Deploying the required services and applications
 {: #deploying_services}
 
-1. To deploy all required services and applications, on the [{{site.data.keyword.Bluemix_notm}} console](https://console.ng.bluemix.net/#all-items), click the {{site.data.keyword.iotinsurance_short}} service, then click **Deploy**.
+
+1. No new instances can be deployed. If you have an existing instance, continue with step 2.  
+
+<!-- To deploy all required services and applications, on the [{{site.data.keyword.Bluemix_notm}} console](https://console.ng.bluemix.net/#all-items), click the {{site.data.keyword.iotinsurance_short}} service, then click **Deploy**.
 
   {{site.data.keyword.iotinsurance_short}} deploys all services and Node.js applications that it requires. It automatically binds the applications to the services.
 
@@ -48,7 +53,7 @@ To get up and running with this service, you must deploy required services and a
   **Important:**  When you deploy the trial version of {{site.data.keyword.iotinsurance_short}}, be aware that the free versions of the other services and application which are also deployed are limited in their functionality. {{site.data.keyword.iot_short_notm}} is limited to a maximum of 500 devices and {{site.data.keyword.cloudant_short_notm}} is limited to one GB of data and has limited read-write threading capabilities.
 
   **Note**: {{site.data.keyword.iotinsurance_short}} no longer deploys either {{site.data.keyword.amafull}} or {{site.data.keyword.mobilepushfull}}. Earlier versions of {{site.data.keyword.iotinsurance_short}} used the {{site.data.keyword.amashort}} service to process the responses from the mobile app. This process continues to work for all existing instances of {{site.data.keyword.iotinsurance_short}}. However, you must create a custom authentication process to use the mobile app with new instances of
-  {{site.data.keyword.iotinsurance_short}}. You can also optionally [create an instance of  {{site.data.keyword.mobilepushshort}}](https://console.ng.bluemix.net/docs/services/mobilepush/index.html), configure it, and bind it to the {{site.data.keyword.iotinsurance_short}} API.
+  {{site.data.keyword.iotinsurance_short}}. You can also optionally [create an instance of  {{site.data.keyword.mobilepushshort}}](https://console.ng.bluemix.net/docs/services/mobilepush/index.html), configure it, and bind it to the {{site.data.keyword.iotinsurance_short}} API. -->
 
 2. Verify that the {{site.data.keyword.iotinsurance_short}} dashboard is functional and that you can access the APIs.
   1. Open the {{site.data.keyword.iotinsurance_short}} dashboard by clicking **Open**. Accept the prefilled credentials by clicking **Login**.
